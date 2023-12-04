@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body bgcolor="black">
+<form action="php/form.php" method="post" id="form">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname" placeholder="Your name.." required><br>
+    <label for="lname">Last Name</label>
+    &nbsp;<input type="text" id="lname" name="lname" placeholder="Your last name.."><br>
+    <label for="Address">Address</label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="Address" name="Address" placeholder="Your address.." required><br>
+    <label for="phone number">Phone Number</label>
+    <input type="text" id="phone" name="phone" placeholder="Your phone number.." required><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email.." required><br>
+
+    <label for="subject" style="text-align: left;">Products</label> 
+    <select id="subject" name="subject">
+        <option value="Select" default>Select</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Software Engineering">Software Engineering</option>
+        <option value="Data Science">Data Science</option>
+        <option value="Computer Networking">Computer Networking</option>
+        <option value="Mobile Development">Mobile Development</option>
+        <option value="Cyber Security">Cyber Security</option>
+        <option value="Cloud Computing">Cloud Computing</option>
+        <option value="Software Testing">Software Testing</option>
+        <option value="Game Development">Game Development</option>
+        <option value="Data Analytics">Data Analytics</option>
+        <option value="Artificial Intelligence">Artificial Intelligence</option>
+        <option value="Machine Learning">Machine Learning</option>
+        <option value="Web Development">Web Development</option>
+        <option value="UI/UX">UI/UX</option>
+        <option value="Ethical Hacking">Ethical Hacking</option>
+        <option value="Bug Bounty">Bug Bounty</option>
+        <option value ="Penetration Testing">Penetration Testing</option>
+        <option value="Data Structure">Data Structure</option>
+        <option value="Others">Others</option>
+    </select><br>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

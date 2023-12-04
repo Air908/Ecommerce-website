@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body bgcolor="black">
+  <div class="nav-bar" id="nav-bar" >
+    <nav>
+            <a href="index.html" id="active">Home</a>
+            <a href="services.html" id="active">Services</a>
+            <a href="contact.html" id="active" hidden>Contact</a>
+            <a href="support.html" id="active">Products</a>
+            <a href="faq.html" id="active">Portfolio</a>
+            <a href="about.html" id="active">About</a>
+    </nav>
+  </div>
+<div class="contact" id="contact">
+    <section id="c1">
+    <h1>Contact Us</h1>
+    </section>
+    <section id="C2">
+        <form action="php/data.php" id ="form" method="post">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="Your name.." required><br>
+            <label for="lname">Last Name</label>
+            &nbsp;<input type="text" id="lname" name="lname" placeholder="Your last name.."><br>
+            <label for="Address">Address</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="Address" name="Address" placeholder="Your address.." required><br>
+            <label for="subject">Subject</label><br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</div>
+<div class ="detail" id="detail">
+<section> <img src="files/address.png" id="map" style=" left: 50%;" alt="contact" width="50%" height="50%" onclick="window.location.href='https://maps.app.goo.gl/yqHv1Fe5WB2tfQaT9'"></section>     
+</div>
+<hr id="hr">
+<div class="foot" id ="foot">
+    <Table>
+        <tr>
+    <td>
+        <section id="about"><h1>About</h1>
+            <p>This is a demo project for web development for the first semester of OSST. In this project, we will learn about HTML, CSS, JavaScript, and php. We will also learn how to create a ecommmerce website. I am making a website for purchasing software and hardware products.</p>
+        </section>
+    </td>
+    <td><section id="end">
+        <nav><h1 id="end"> Quick Links</h1>
+            <a href="index.html" id="end">Home</a><br>
+            <a href="services.html" id="end">Services</a><br>
+            <a href="contact.html" id="end">Contact</a><br>
+            <a href="support.html" id="end">Products</a><br>
+            <a href="faq.html" id="end">Portfolio</a><br>
+            <a href="about.html" id="end">About</a><br></nav>
+    </section></td>
+  <td><section id="ender">
+        <nav><h1 id="ender"> Social Links</h1>
+            <a href="https://www.facebook.com" id="ender"><img src="files/facebook.jpeg" alt="facebook" width="80px" height="80px"></a><br>
+            <a href="https://www.instagram.com" id="ender"><img src="files/instagram.jpeg" alt="instagram" width="80px" height="80px"></a><br>
+            <a href="https://www.twitter.com" id="ender"><img src="files/twitter.jpeg" alt="twitter" width="50px" height="50px"></a><br>
+            <a href="https://www.linkedin.com" id="ender"><img src="files/LinkedIn_Logo.svg.png" alt="linkedin" width="80px" height="50px"></a><br>
+            <a href="https://www.github.com" id="ender"><img src="files/GitHub-Embleme.png" alt="github" width="80px" height="80px"></a><br></nav>
+    </section></td></tr></Table>
+    <section id="ending"> <h6>Rating <script type="text/javascript">
+        for(i=1;i<=5;i++){
+        document.write("<img src='files/star.png' width='20px' height='20px'>");
+        }
+    </script>
+</h6></section>
+    <section id="footer"><hr id ="hr">
+    <p style="text-align: center">Copyright © 2023 Flying Hacktech<br>
+        Developed by Rohit Sheoran</p>
+</section>
+</div>
+</body>
+</html>
